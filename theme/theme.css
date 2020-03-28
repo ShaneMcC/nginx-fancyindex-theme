@@ -1,0 +1,66 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family:'Open Sans', sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f8f9fa;
+}
+
+.navbar {
+	background-color: #3747bb;
+	color: white;
+	min-height: 24px;
+	padding: 0 8;
+}
+
+.navbar-brand {
+	height: 24px;
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+ol.breadcrumb {
+	background-color: transparent;
+	margin: 5px 0;
+	padding: 0;
+}
+
+li.breadcrumb-item a {
+	color: #3747bb
+}
+
+#list a, #list a:hover, #list a:focus {
+	color: #000000;
+}
+
+#list th a, #list th a:hover, #list th a:focus {
+	color: #3747bb;
+}
+
+#list .thead-dark th a, #list .thead-dark th a:hover, #list .thead-dark th a:focus {
+	color: #FFFFFF;
+}
+
+#list colgroup {
+	display: none;
+}
+
+#list .filename {
+	word-break: break-all;
+	white-space: normal;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+.footer a, .footer a:hover, .footer a:focus {
+	color: #3747bb;
+}
